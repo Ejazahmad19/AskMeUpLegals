@@ -7,26 +7,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="bg-animated"></div>
+  
+  <!-- Floating Particles -->
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+
   <header>
-    <h1>AskMeUp</h1>
+    <div class="logo-container">
+      <h1>AskMeUp</h1>
+    </div>
     <p class="tagline">by Ejaz' Apps</p>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="terms.html">Terms</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="data-safety.html">Data Safety</a>
-      <a href="cookies.html">Cookies</a>
-      <a href="faq.html">FAQ</a>
-      <a href="licenses.html">Licenses</a>
-      <a href="attributions.html">Attributions</a>
+      <a href="index.html">🏠 Home</a>
+      <a href="terms.html">📜 Terms</a>
+      <a href="privacy.html">🔒 Privacy</a>
+      <a href="data-safety.html">🛡️ Data Safety</a>
+      <a href="cookies.html">🍪 Cookies</a>
+      <a href="faq.html">❓ FAQ</a>
+      <a href="licenses.html">⚖️ Licenses</a>
+      <a href="attributions.html">🤝 Attributions</a>
     </nav>
   </header>
 
   <main>
-    <section>
+    <section class="welcome-section">
       <h2>Welcome to AskMeUp Help & Legal Center</h2>
       <p>
-        Here you’ll find all the important information, policies, and guides 
+        Here you'll find all the important information, policies, and guides 
         related to AskMeUp. Use the navigation above to browse through our Terms, 
         Privacy Policy, FAQs, and more.
       </p>
@@ -34,38 +45,45 @@
 
     <section class="cards">
       <div class="card">
-        <h3><a href="terms.html">📜 Terms & Conditions</a></h3>
-        <p>Read the rules for using AskMeUp responsibly.</p>
+        <span class="card-icon">📜</span>
+        <h3><a href="terms.html">Terms & Conditions</a></h3>
+        <p>Read the rules for using AskMeUp responsibly and understand your rights as a user.</p>
       </div>
 
       <div class="card">
-        <h3><a href="privacy.html">🔒 Privacy Policy</a></h3>
-        <p>Understand how we collect, use, and protect your data.</p>
+        <span class="card-icon">🔒</span>
+        <h3><a href="privacy.html">Privacy Policy</a></h3>
+        <p>Understand how we collect, use, and protect your data with complete transparency.</p>
       </div>
 
       <div class="card">
-        <h3><a href="data-safety.html">🛡 Data Safety</a></h3>
-        <p>Learn about our commitment to keeping your data safe.</p>
+        <span class="card-icon">🛡️</span>
+        <h3><a href="data-safety.html">Data Safety</a></h3>
+        <p>Learn about our commitment to keeping your data safe and secure at all times.</p>
       </div>
 
       <div class="card">
-        <h3><a href="cookies.html">🍪 Cookie Policy</a></h3>
-        <p>Details on how we use cookies in our apps & sites.</p>
+        <span class="card-icon">🍪</span>
+        <h3><a href="cookies.html">Cookie Policy</a></h3>
+        <p>Details on how we use cookies in our apps & sites to enhance your experience.</p>
       </div>
 
       <div class="card">
-        <h3><a href="faq.html">❓ FAQs & Guides</a></h3>
-        <p>Find answers to common questions and tutorials.</p>
+        <span class="card-icon">❓</span>
+        <h3><a href="faq.html">FAQs & Guides</a></h3>
+        <p>Find answers to common questions and helpful tutorials to get the most out of AskMeUp.</p>
       </div>
 
       <div class="card">
-        <h3><a href="licenses.html">⚖ Open Source Licenses</a></h3>
-        <p>Review the open-source libraries powering AskMeUp.</p>
+        <span class="card-icon">⚖️</span>
+        <h3><a href="licenses.html">Open Source Licenses</a></h3>
+        <p>Review the open-source libraries and frameworks powering AskMeUp.</p>
       </div>
 
       <div class="card">
-        <h3><a href="attributions.html">🤝 Attributions</a></h3>
-        <p>See the third-party services and partners we use.</p>
+        <span class="card-icon">🤝</span>
+        <h3><a href="attributions.html">Attributions</a></h3>
+        <p>See the third-party services and partners that help make AskMeUp possible.</p>
       </div>
     </section>
   </main>
@@ -73,5 +91,7 @@
   <footer>
     &copy; 2025 AskMeUp · Built with ❤️ by Ejaz' Apps
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
