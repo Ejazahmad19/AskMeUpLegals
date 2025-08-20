@@ -198,6 +198,14 @@ nav a:hover::before {
   left: 100%;
 }
 
+/* Active navigation state */
+nav a.active {
+  background: rgba(99, 102, 241, 0.2);
+  border-color: var(--primary);
+  color: var(--text-primary);
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.2);
+}
+
 /* Main Content */
 main {
   max-width: 1200px;
@@ -277,6 +285,9 @@ main {
 .card:nth-child(5) { animation-delay: 0.5s; }
 .card:nth-child(6) { animation-delay: 0.6s; }
 .card:nth-child(7) { animation-delay: 0.7s; }
+.card:nth-child(8) { animation-delay: 0.8s; }
+.card:nth-child(9) { animation-delay: 0.9s; }
+.card:nth-child(10) { animation-delay: 1.0s; }
 
 .card::before {
   content: '';
